@@ -5,6 +5,7 @@ import axios from "axios"
 
 function App() {
   const [name,setName] = useState("")
+  const [name1,setName1] = useState("")
 
   useEffect(() =>{
          const fetchPosts = async () =>{

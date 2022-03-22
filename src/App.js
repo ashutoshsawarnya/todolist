@@ -9,7 +9,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css"
 function App() {
 
   const[todos, setTodos] = useState();
-  console.log("Hello World")
+  
 
   useEffect(() =>{
     
